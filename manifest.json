@@ -1,0 +1,10 @@
+{
+  "name": "IPA Reader",
+  "description": "Chrome extension for IPA transcriptions with support of multiple languages. Based on the data from open-dict-data (https://open-dict-data.github.io/)",
+  "version": "0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hello.html",
+    "default_icon": "assets/icon.png"
+  }
+}
