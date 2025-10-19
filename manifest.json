@@ -10,7 +10,10 @@
   "content_scripts": [
    {
     "matches": ["<all_urls>"],
-    "js": ["highlight.js"]
+    "js": ["highlight.js", "dbtest.js"]
    }
-  ]
+  ],
+  "background": {
+    "service_worker": "database.js"
+  }
 }
